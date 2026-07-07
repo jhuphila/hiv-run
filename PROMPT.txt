@@ -1,0 +1,3 @@
+Analyze the sequences in data/cohort_frameshift.fasta using the sierrapy skill. 
+
+Create a copy of the output skeleton in eval/output_skeleton.md and fill in the copy. For the Mutations Detected section, report all mutations Sierra returns for each sequence — do not filter to a resistance-relevant subset. Then write a short plain-language summary of the resistance findings for a clinician.

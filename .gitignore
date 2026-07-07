@@ -1,0 +1,6 @@
+# Ignore all eval/ contents except the skeleton template
+eval/*
+!eval/output_skeleton.md
+
+output/
+results/
