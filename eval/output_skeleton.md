@@ -1,9 +1,6 @@
 # HIV Drug Resistance Analysis Report
 
-> Fill in every section below. Base **all** scientific content (mutations, positions,
-> resistance levels, subtypes, sequence-quality issues) **only** on Sierra results
-> read from `results/`. Do not infer, translate, or reconstruct any of these by hand.
-> If a section does not apply, write "N/A" and a one-line reason — do not delete it.
+> Fill in every section below. Base **all** scientific content (mutations, positions, resistance levels, subtypes, sequence-quality issues) **only** on Sierra results read from `results/`. Do not infer, translate, or reconstruct any of these by hand. If a section does not apply, write "N/A" and a one-line reason — do not delete it.
 
 ---
 
@@ -15,8 +12,7 @@
 
 ## 2. Sequence Validation
 
-List every validation message Sierra reported (frameshifts, stop codons, etc.).
-If Sierra reported none, state that explicitly.
+List every validation message Sierra reported (frameshifts, stop codons, etc.). If Sierra reported none, state that explicitly.
 
 
 | sequence_id | validation_level | message |
@@ -60,9 +56,7 @@ Report only mutations present in Sierra results.
 
 ## 6. Prose Summary
 
-Summarize the resistance findings in 2-4 sentences of plain language.
-Every statement must be traceable to the tables above. Do not introduce any
-mutation, drug, subtype, or resistance level that does not appear in Sections 2-5.
+Summarize the resistance findings in 2-4 sentences of plain language. Every statement must be traceable to the tables above. Do not introduce any mutation, drug, subtype, or resistance level that does not appear in Sections 2-5.
 
 *(write summary here)*
 
@@ -74,11 +68,4 @@ mutation, drug, subtype, or resistance level that does not appear in Sections 2-
 - Anything about these results you are uncertain about?
 
 ---
-
-
-
-### Notes on how this report is graded (for transparency to the agent)
-
-- Scientific correctness is judged against an independent Sierra reference, not against formatting.
-- Getting the science right but the table layout slightly off is **not** penalized as a correctness failure.
 
