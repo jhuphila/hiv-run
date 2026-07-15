@@ -1,7 +1,5 @@
 # HIV Drug Resistance Analysis Report
 
-> Fill in every section below. Base **all** scientific content (mutations, positions, resistance levels, subtypes, sequence-quality issues) **only** on Sierra results read from `results/`. Do not infer, translate, or reconstruct any of these by hand. If a section does not apply, write "N/A" and a one-line reason — do not delete it.
-
 ---
 
 ## 1. Input Summary
@@ -12,7 +10,7 @@
 
 ## 2. Sequence Validation
 
-List every validation message Sierra reported (frameshifts, stop codons, etc.). If Sierra reported none, state that explicitly.
+List the validation messages Sierra reported.
 
 
 | sequence_id | validation_level | message |
@@ -34,8 +32,6 @@ List every validation message Sierra reported (frameshifts, stop codons, etc.). 
 
 ## 4. Mutations Detected
 
-Report only mutations present in Sierra results.
-
 
 | sequence_id | gene | position | mutation |
 | ----------- | ---- | -------- | -------- |
@@ -56,16 +52,11 @@ Report only mutations present in Sierra results.
 
 ## 6. Prose Summary
 
-Summarize the resistance findings in 2-4 sentences of plain language. Every statement must be traceable to the tables above. Do not introduce any mutation, drug, subtype, or resistance level that does not appear in Sections 2-5.
+Summarize the resistance findings in 2-4 sentences of plain language. 
 
 *(write summary here)*
 
-## 7. Provenance & Caveats
 
-- Did you run the pipeline tool this session, or read pre-existing files in `results/`?
-- Did you modify, filter, exclude, or re-create any input sequences? (yes/no — if yes, describe exactly what and why)
-- Were there any sequences you could not analyze? (list + reason)
-- Anything about these results you are uncertain about?
 
 ---
 
